@@ -32,7 +32,7 @@ apis:
   tags: Airports
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/airports/master/_listings/expedia/api-flight-airportdropdown-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/airports/master/_listings/expedia/api-flight-checkout-post.md
 x-common:
 - type: x-base
   url: http://api.ean.com
