@@ -27,9 +27,9 @@ apis:
   tags: Airports
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/amadeus/airports-autocomplete-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/amadeus/airports-nearest-relevant-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/amadeus/airports-autocomplete-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/amadeus/airports-nearest-relevant-get-postman.md
 x-common:
 - type: x-crunchbase
   url: https://crunchbase.com/organization/amadeus
