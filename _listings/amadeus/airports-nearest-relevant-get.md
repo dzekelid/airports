@@ -1,11 +1,15 @@
 ---
 swagger: "2.0"
 info:
-  title: Amadeus
-  description: Amadeus API is a toolkit designed for travel agencies who want to develop
-    their own travel products rather than using off-the-shelf solutions. With this
-    tool, you can build your very own customised applications that link in a stable
-    and secure dialogue with our Global Distribution System (GDS).
+  title: Amadeus Get Airports Nearest Relevant
+  description: |-
+    This service gives the most relevant airports in a radius of 500 km around the given coordinates. The relevance of an airport is computed by dividing the number of airport movements (take offs and landings) by the distance from the point. This causes the relevance of an airport to increase exponentially as you approach it.
+
+    To minimize response time, all distances are computed as a great-circle distance from the provided coordinates to the airport coordinates, and thus do not take into account traffic conditions, international boundaries, mountains, water, or other elements that might make the a nearby airport hard to reach.
+
+    Only civilian airports with at least several commercial flights per week are included in the results.
+
+    The result is a list of airports sorted by decreasing relevance. It always contains the nearest airport with significant commercial traffic. You can freely download the point of reference information used by this API from the Open Travel Data project.
   contact:
     name: Amadeus Innovation and Research
     url: https://sandbox.amadeus.com
