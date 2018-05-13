@@ -1,11 +1,20 @@
 ---
 swagger: "2.0"
 info:
-  title: Amadeus
-  description: Amadeus API is a toolkit designed for travel agencies who want to develop
-    their own travel products rather than using off-the-shelf solutions. With this
-    tool, you can build your very own customised applications that link in a stable
-    and secure dialogue with our Global Distribution System (GDS).
+  title: Amadeus Get Airports Autocomplete
+  description: "Using the term parameter and given the start of any word in an airport's
+    official name, a city name, or the start of an IATA code, this API provides the
+    full name and IATA location code of the city or airport, for use in flight searches.
+    Only major cities and civilian airports with several commercial flights per week
+    are included by default. The response provides up to 20 possible matches, sorted
+    by importance, in a JQuery UI Autocomplete compatible format. This sample implementation
+    using JQuery UI may help. This API uses data from the OpenTravelData project.\n
+    \nBy only using the country parameter, this API is also able to find all the IATA
+    location codes associated with a country. Both term and country parameters can
+    be used together to filter the results accordingly.          \n\nThe value returned
+    is the IATA location code. The label returned is always in UTF-8 format, with
+    the airport official name (which is often in the native language), in the format
+    of English City Name (if not already included in the airport name)."
   contact:
     name: Amadeus Innovation and Research
     url: https://sandbox.amadeus.com
