@@ -19,9 +19,9 @@ tags:
 - Hotels
 - Flights
 - Booking
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/airports/master/_listings/expedia/apis.yaml
+created: "2018-05-12"
+modified: "2018-05-12"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Expedia
@@ -32,7 +32,9 @@ apis:
   tags: Airports
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/airports/master/_listings/expedia/api-m-trip-remove-coupon-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/api-flight-search-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/api-flight-search-get-postman.md
 x-common:
 - type: x-base
   url: http://api.ean.com
