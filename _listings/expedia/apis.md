@@ -32,9 +32,9 @@ apis:
   tags: Airports
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/api-m-trip-coupon-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/api-m-trip-remove-coupon-post.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/api-m-trip-coupon-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/api-m-trip-remove-coupon-post-postman.md
 x-common:
 - type: x-base
   url: http://api.ean.com
