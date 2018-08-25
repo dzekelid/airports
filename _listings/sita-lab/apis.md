@@ -10,17 +10,7 @@ created: "2018-08-25"
 modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/sita-lab/apis.md
 specificationVersion: "0.14"
-apis:
-- name: SITA Lab
-  x-api-slug: sita-lab
-  description: ""
-  image: https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-butterfly.png
-  humanURL: https://www.developer.aero/
-  baseURL: https:///
-  tags: Airports
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/sita-lab/openapi.md
+apis: []
 x-common:
 - type: x-base
   url: https://bpass.api.aero/api
