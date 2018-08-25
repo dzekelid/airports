@@ -3,10 +3,10 @@ swagger: "2.0"
 x-collection-name: Lufthansa
 x-complete: 0
 info:
-  title: LH Public Airports
+  title: LH Public Flight Status at Departure Airport
   version: "1.0"
-  description: List all airports or one specific airport. All airports response is
-    very large. It is possible to request the response in a specific language.
+  description: Status of all departures from a given airport up to 4 hours from the
+    provided date time.
 host: api.lufthansa.com
 basePath: /v1
 schemes:

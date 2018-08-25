@@ -3,20 +3,19 @@ swagger: "2.0"
 x-collection-name: Amadeus
 x-complete: 0
 info:
-  title: Amadeus Get Airports Autocomplete
-  description: "Using the term parameter and given the start of any word in an airport's
-    official name, a city name, or the start of an IATA code, this API provides the
-    full name and IATA location code of the city or airport, for use in flight searches.
-    Only major cities and civilian airports with several commercial flights per week
-    are included by default. The response provides up to 20 possible matches, sorted
-    by importance, in a JQuery UI Autocomplete compatible format. This sample implementation
-    using JQuery UI may help. This API uses data from the OpenTravelData project.\n
-    \nBy only using the country parameter, this API is also able to find all the IATA
-    location codes associated with a country. Both term and country parameters can
-    be used together to filter the results accordingly.          \n\nThe value returned
-    is the IATA location code. The label returned is always in UTF-8 format, with
-    the airport official name (which is often in the native language), in the format
-    of English City Name (if not already included in the airport name)."
+  title: Amadeus Get Cars Search Airport
+  description: "With this API you can find out the price and type of car, for all
+    car rental providers, near a specified airport.\n\nYou can quickly see the locations
+    of car providers near a given airport, and what cars are available to rent, and
+    at what prices. This API is based on our car pricing service that gets live availability
+    from car providers, and is used to power a variety of airline and travel agency
+    websites.\n           \nResults are validated from car providers, and thus response
+    times may take up to 10 seconds (response times are typically about 5s), and the
+    number of concurrent calls is throttled per user to avoid flooding our provider's
+    systems. However, this means the final result is guaranteed to be live and accurate.\n\nThe
+    configuration of this API allows search for car rentals in the rental location
+    where the car is picked up (at the start of the rental), is the same as the one
+    where it will be dropped off."
   contact:
     name: Amadeus Innovation and Research
     url: https://sandbox.amadeus.com

@@ -7,52 +7,205 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28139-sand
 x-kinRank: "8"
 x-alexaRank: "4309"
 tags: Airports
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/amadeus/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Amadeus Get Airports Autocomplete
+- name: Amadeus
   x-api-slug: amadeus
-  description: "Using the term parameter and given the start of any word in an airport's
-    official name, a city name, or the start of an IATA code, this API provides the
-    full name and IATA location code of the city or airport, for use in flight searches.
-    Only major cities and civilian airports with several commercial flights per week
-    are included by default. The response provides up to 20 possible matches, sorted
-    by importance, in a JQuery UI Autocomplete compatible format. This sample implementation
-    using JQuery UI may help. This API uses data from the OpenTravelData project.\n
-    \nBy only using the country parameter, this API is also able to find all the IATA
-    location codes associated with a country. Both term and country parameters can
-    be used together to filter the results accordingly.          \n\nThe value returned
-    is the IATA location code. The label returned is always in UTF-8 format, with
-    the airport official name (which is often in the native language), in the format
-    of English City Name (if not already included in the airport name)."
+  description: amadeus-api-is-a-toolkit-designed-for-travel-agencies-who-want-to-develop-their-own-travel-products-rather-than-using-offtheshelf-solutions--with-this-tool-you-can-build-your-very-own-customised-applications-that-link-in-a-stable-and-secure-dialogue-with-our-global-distribution-system-gds-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28139-sandbox-amadeus-com.jpg
   humanURL: https://amadeus.com
-  baseURL: https://api.sandbox.amadeus.com//v1.2//airports/autocomplete
-  tags: Airlines, Airports, Autocomplete
+  baseURL: https://api.sandbox.amadeus.com//v1.2
+  tags: Marketplace, Technology, Travel, Transportation, Airlines, API Provider, Hotels,
+    Profiles, Relative Data, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/amadeus/airportsautocomplete-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/amadeus/airportsautocomplete-get-openapi.md
-- name: Amadeus Get Airports Nearest Relevant
+- name: Amadeus
   x-api-slug: amadeus
-  description: |-
-    This service gives the most relevant airports in a radius of 500 km around the given coordinates. The relevance of an airport is computed by dividing the number of airport movements (take offs and landings) by the distance from the point. This causes the relevance of an airport to increase exponentially as you approach it.
-
-    To minimize response time, all distances are computed as a great-circle distance from the provided coordinates to the airport coordinates, and thus do not take into account traffic conditions, international boundaries, mountains, water, or other elements that might make the a nearby airport hard to reach.
-
-    Only civilian airports with at least several commercial flights per week are included in the results.
-
-    The result is a list of airports sorted by decreasing relevance. It always contains the nearest airport with significant commercial traffic. You can freely download the point of reference information used by this API from the Open Travel Data project.
+  description: amadeus-api-is-a-toolkit-designed-for-travel-agencies-who-want-to-develop-their-own-travel-products-rather-than-using-offtheshelf-solutions--with-this-tool-you-can-build-your-very-own-customised-applications-that-link-in-a-stable-and-secure-dialogue-with-our-global-distribution-system-gds-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28139-sandbox-amadeus-com.jpg
   humanURL: https://amadeus.com
-  baseURL: https://api.sandbox.amadeus.com//v1.2//airports/nearest-relevant
-  tags: Airlines, Airports, Nearest, Relevant
+  baseURL: https://api.sandbox.amadeus.com//v1.2
+  tags: Marketplace, Technology, Travel, Transportation, Airlines, API Provider, Hotels,
+    Profiles, Relative Data, General Data
   properties:
   - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/amadeus/airportsautocomplete-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/amadeus/airportsautocomplete-get-openapi.md
+  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/amadeus/airportsnearestrelevant-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/amadeus/airportsnearestrelevant-get-openapi.md
+- name: Amadeus
+  x-api-slug: amadeus
+  description: amadeus-api-is-a-toolkit-designed-for-travel-agencies-who-want-to-develop-their-own-travel-products-rather-than-using-offtheshelf-solutions--with-this-tool-you-can-build-your-very-own-customised-applications-that-link-in-a-stable-and-secure-dialogue-with-our-global-distribution-system-gds-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28139-sandbox-amadeus-com.jpg
+  humanURL: https://amadeus.com
+  baseURL: https://api.sandbox.amadeus.com//v1.2
+  tags: Marketplace, Technology, Travel, Transportation, Airlines, API Provider, Hotels,
+    Profiles, Relative Data, General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/amadeus/airportsautocomplete-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/amadeus/airportsautocomplete-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/amadeus/airportsnearestrelevant-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/amadeus/airportsnearestrelevant-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/amadeus/carssearchairport-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/amadeus/carssearchairport-get-openapi.md
+- name: Amadeus
+  x-api-slug: amadeus
+  description: amadeus-api-is-a-toolkit-designed-for-travel-agencies-who-want-to-develop-their-own-travel-products-rather-than-using-offtheshelf-solutions--with-this-tool-you-can-build-your-very-own-customised-applications-that-link-in-a-stable-and-secure-dialogue-with-our-global-distribution-system-gds-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28139-sandbox-amadeus-com.jpg
+  humanURL: https://amadeus.com
+  baseURL: https://api.sandbox.amadeus.com//v1.2
+  tags: Marketplace, Technology, Travel, Transportation, Airlines, API Provider, Hotels,
+    Profiles, Relative Data, General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/amadeus/airportsautocomplete-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/amadeus/airportsautocomplete-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/amadeus/airportsnearestrelevant-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/amadeus/airportsnearestrelevant-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/amadeus/carssearchairport-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/amadeus/carssearchairport-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/amadeus/hotelssearchairport-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/amadeus/hotelssearchairport-get-openapi.md
+- name: Amadeus
+  x-api-slug: amadeus
+  description: amadeus-api-is-a-toolkit-designed-for-travel-agencies-who-want-to-develop-their-own-travel-products-rather-than-using-offtheshelf-solutions--with-this-tool-you-can-build-your-very-own-customised-applications-that-link-in-a-stable-and-secure-dialogue-with-our-global-distribution-system-gds-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28139-sandbox-amadeus-com.jpg
+  humanURL: https://amadeus.com
+  baseURL: https://api.sandbox.amadeus.com//v1.2
+  tags: Marketplace, Technology, Travel, Transportation, Airlines, API Provider, Hotels,
+    Profiles, Relative Data, General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/amadeus/airportsautocomplete-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/amadeus/airportsautocomplete-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/amadeus/airportsnearestrelevant-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/amadeus/airportsnearestrelevant-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/amadeus/carssearchairport-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/amadeus/carssearchairport-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/amadeus/hotelssearchairport-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/amadeus/hotelssearchairport-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/amadeus/carssearchairport-get-openapi.md
+- name: Amadeus
+  x-api-slug: amadeus
+  description: amadeus-api-is-a-toolkit-designed-for-travel-agencies-who-want-to-develop-their-own-travel-products-rather-than-using-offtheshelf-solutions--with-this-tool-you-can-build-your-very-own-customised-applications-that-link-in-a-stable-and-secure-dialogue-with-our-global-distribution-system-gds-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28139-sandbox-amadeus-com.jpg
+  humanURL: https://amadeus.com
+  baseURL: https://api.sandbox.amadeus.com//v1.2
+  tags: Marketplace, Technology, Travel, Transportation, Airlines, API Provider, Hotels,
+    Profiles, Relative Data, General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/amadeus/airportsautocomplete-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/amadeus/airportsautocomplete-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/amadeus/airportsnearestrelevant-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/amadeus/airportsnearestrelevant-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/amadeus/carssearchairport-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/amadeus/carssearchairport-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/amadeus/hotelssearchairport-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/amadeus/hotelssearchairport-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/amadeus/carssearchairport-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/amadeus/hotelssearchairport-get-openapi.md
+- name: Amadeus
+  x-api-slug: amadeus
+  description: amadeus-api-is-a-toolkit-designed-for-travel-agencies-who-want-to-develop-their-own-travel-products-rather-than-using-offtheshelf-solutions--with-this-tool-you-can-build-your-very-own-customised-applications-that-link-in-a-stable-and-secure-dialogue-with-our-global-distribution-system-gds-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28139-sandbox-amadeus-com.jpg
+  humanURL: https://amadeus.com
+  baseURL: https://api.sandbox.amadeus.com//v1.2
+  tags: Marketplace, Technology, Travel, Transportation, Airlines, API Provider, Hotels,
+    Profiles, Relative Data, General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/amadeus/airportsautocomplete-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/amadeus/airportsautocomplete-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/amadeus/airportsnearestrelevant-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/amadeus/airportsnearestrelevant-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/amadeus/carssearchairport-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/amadeus/carssearchairport-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/amadeus/hotelssearchairport-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/amadeus/hotelssearchairport-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/amadeus/carssearchairport-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/amadeus/hotelssearchairport-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/amadeus/airportsautocomplete-get-openapi.md
+- name: Amadeus
+  x-api-slug: amadeus
+  description: amadeus-api-is-a-toolkit-designed-for-travel-agencies-who-want-to-develop-their-own-travel-products-rather-than-using-offtheshelf-solutions--with-this-tool-you-can-build-your-very-own-customised-applications-that-link-in-a-stable-and-secure-dialogue-with-our-global-distribution-system-gds-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28139-sandbox-amadeus-com.jpg
+  humanURL: https://amadeus.com
+  baseURL: https://api.sandbox.amadeus.com//v1.2
+  tags: Marketplace, Technology, Travel, Transportation, Airlines, API Provider, Hotels,
+    Profiles, Relative Data, General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/amadeus/airportsautocomplete-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/amadeus/airportsautocomplete-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/amadeus/airportsnearestrelevant-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/amadeus/airportsnearestrelevant-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/amadeus/carssearchairport-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/amadeus/carssearchairport-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/amadeus/hotelssearchairport-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/amadeus/hotelssearchairport-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/amadeus/carssearchairport-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/amadeus/hotelssearchairport-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/amadeus/airportsautocomplete-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/amadeus/airportsnearestrelevant-get-openapi.md
 - name: Amadeus
@@ -68,6 +221,10 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/amadeus/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://amadeus.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://amadeus.stack.network
 - type: x-crunchbase
   url: https://crunchbase.com/organization/amadeus
 - type: x-documentation

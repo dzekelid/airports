@@ -7,145 +7,441 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedi
 x-kinRank: "9"
 x-alexaRank: "197733"
 tags: Airports
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Expedia Search
+- name: Expedia
   x-api-slug: expedia
-  description: Mobile API Flights
+  description: expedia-mobile-api-documentation--brfont-colorblue-note-in-case-of-authorization-exception-just-a-hrefstaticmobileswaggeruiusersigninusersigninafont
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
-  baseURL: https://apim.expedia.com/x///api/flight/search
-  tags: Travel,Airports,Airplanes,Airlines
+  baseURL: https://apim.expedia.com/x/
+  tags: Reservations, Travel, Hotels, Flights, Travel, Stack Network, Stack, Transportation,
+    Enterprise, Technology, API Provider, Travel, Bookings, Profiles, Relative Data,
+    General Data, Pedestal, Networks
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightsearch-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightsearch-get-openapi.md
-- name: Expedia Create A Trip
+- name: Expedia
   x-api-slug: expedia
-  description: Mobile API Flights Create Trip Operation
+  description: expedia-mobile-api-documentation--brfont-colorblue-note-in-case-of-authorization-exception-just-a-hrefstaticmobileswaggeruiusersigninusersigninafont
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
-  baseURL: https://apim.expedia.com/x///api/flight/trip/create
-  tags: Travel,Airports,Airplanes,Trips,Airlines
+  baseURL: https://apim.expedia.com/x/
+  tags: Reservations, Travel, Hotels, Flights, Travel, Stack Network, Stack, Transportation,
+    Enterprise, Technology, API Provider, Travel, Bookings, Profiles, Relative Data,
+    General Data, Pedestal, Networks
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightsearch-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightsearch-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflighttripcreate-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflighttripcreate-post-openapi.md
-- name: Expedia Get the credit card fee for a trip
+- name: Expedia
   x-api-slug: expedia
-  description: This api provides an accurate credit card fee that a user would have
-    to pay when booking a trip.
+  description: expedia-mobile-api-documentation--brfont-colorblue-note-in-case-of-authorization-exception-just-a-hrefstaticmobileswaggeruiusersigninusersigninafont
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
-  baseURL: https://apim.expedia.com/x///api/flight/trip/cardFee
-  tags: Travel,Airports,Airplanes,Airlines
+  baseURL: https://apim.expedia.com/x/
+  tags: Reservations, Travel, Hotels, Flights, Travel, Stack Network, Stack, Transportation,
+    Enterprise, Technology, API Provider, Travel, Bookings, Profiles, Relative Data,
+    General Data, Pedestal, Networks
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightsearch-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightsearch-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflighttripcreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflighttripcreate-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflighttripcardfee-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflighttripcardfee-post-openapi.md
-- name: Expedia Details
+- name: Expedia
   x-api-slug: expedia
-  description: Mobile API Flight Details Operation
+  description: expedia-mobile-api-documentation--brfont-colorblue-note-in-case-of-authorization-exception-just-a-hrefstaticmobileswaggeruiusersigninusersigninafont
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
-  baseURL: https://apim.expedia.com/x///api/flight/details
-  tags: Travel,Airports,Airplanes,Airlines
+  baseURL: https://apim.expedia.com/x/
+  tags: Reservations, Travel, Hotels, Flights, Travel, Stack Network, Stack, Transportation,
+    Enterprise, Technology, API Provider, Travel, Bookings, Profiles, Relative Data,
+    General Data, Pedestal, Networks
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightsearch-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightsearch-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflighttripcreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflighttripcreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflighttripcardfee-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflighttripcardfee-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightdetails-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightdetails-get-openapi.md
-- name: Expedia Flight Image
+- name: Expedia
   x-api-slug: expedia
-  description: Mobile API Flight Image Operation
+  description: expedia-mobile-api-documentation--brfont-colorblue-note-in-case-of-authorization-exception-just-a-hrefstaticmobileswaggeruiusersigninusersigninafont
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
-  baseURL: https://apim.expedia.com/x///api/flight/image
-  tags: Travel,Airports,Airplanes,Images,Airlines
+  baseURL: https://apim.expedia.com/x/
+  tags: Reservations, Travel, Hotels, Flights, Travel, Stack Network, Stack, Transportation,
+    Enterprise, Technology, API Provider, Travel, Bookings, Profiles, Relative Data,
+    General Data, Pedestal, Networks
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightsearch-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightsearch-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflighttripcreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflighttripcreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflighttripcardfee-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflighttripcardfee-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightdetails-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightdetails-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightimage-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightimage-get-openapi.md
-- name: Expedia Mobile Image
+- name: Expedia
   x-api-slug: expedia
-  description: Mobile API Flight Mobile Image Operation
+  description: expedia-mobile-api-documentation--brfont-colorblue-note-in-case-of-authorization-exception-just-a-hrefstaticmobileswaggeruiusersigninusersigninafont
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
-  baseURL: https://apim.expedia.com/x///api/mobile/image
-  tags: Travel,Airports,Airplanes,Images,Airlines
+  baseURL: https://apim.expedia.com/x/
+  tags: Reservations, Travel, Hotels, Flights, Travel, Stack Network, Stack, Transportation,
+    Enterprise, Technology, API Provider, Travel, Bookings, Profiles, Relative Data,
+    General Data, Pedestal, Networks
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightsearch-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightsearch-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflighttripcreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflighttripcreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflighttripcardfee-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflighttripcardfee-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightdetails-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightdetails-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightimage-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightimage-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apimobileimage-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apimobileimage-get-openapi.md
-- name: Expedia Airport Dropdown
+- name: Expedia
   x-api-slug: expedia
-  description: Mobile API Flight Airport Dropdown Operation
+  description: expedia-mobile-api-documentation--brfont-colorblue-note-in-case-of-authorization-exception-just-a-hrefstaticmobileswaggeruiusersigninusersigninafont
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
-  baseURL: https://apim.expedia.com/x///api/flight/airportDropDown
-  tags: Travel,Airports,Airplanes,Airlines
+  baseURL: https://apim.expedia.com/x/
+  tags: Reservations, Travel, Hotels, Flights, Travel, Stack Network, Stack, Transportation,
+    Enterprise, Technology, API Provider, Travel, Bookings, Profiles, Relative Data,
+    General Data, Pedestal, Networks
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightsearch-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightsearch-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflighttripcreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflighttripcreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflighttripcardfee-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflighttripcardfee-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightdetails-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightdetails-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightimage-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightimage-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apimobileimage-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apimobileimage-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightairportdropdown-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightairportdropdown-get-openapi.md
-- name: Expedia Mobile Flight Checkout
+- name: Expedia
   x-api-slug: expedia
-  description: Checkout a previously created flight trip, requiring payment fields,
-    the trip id, and the passenger fields
+  description: expedia-mobile-api-documentation--brfont-colorblue-note-in-case-of-authorization-exception-just-a-hrefstaticmobileswaggeruiusersigninusersigninafont
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
-  baseURL: https://apim.expedia.com/x///api/flight/checkout
-  tags: Travel,Airports,Airplanes,Airlines
+  baseURL: https://apim.expedia.com/x/
+  tags: Reservations, Travel, Hotels, Flights, Travel, Stack Network, Stack, Transportation,
+    Enterprise, Technology, API Provider, Travel, Bookings, Profiles, Relative Data,
+    General Data, Pedestal, Networks
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightsearch-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightsearch-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflighttripcreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflighttripcreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflighttripcardfee-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflighttripcardfee-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightdetails-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightdetails-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightimage-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightimage-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apimobileimage-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apimobileimage-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightairportdropdown-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightairportdropdown-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightcheckout-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightcheckout-post-openapi.md
-- name: Expedia Fare Rules for the trip
+- name: Expedia
   x-api-slug: expedia
-  description: Air Fare Rule information of the trip created
+  description: expedia-mobile-api-documentation--brfont-colorblue-note-in-case-of-authorization-exception-just-a-hrefstaticmobileswaggeruiusersigninusersigninafont
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
-  baseURL: https://apim.expedia.com/x///api/flight/fareRules/{tripId}
-  tags: Travel,Airports,Airplanes,Airlines
+  baseURL: https://apim.expedia.com/x/
+  tags: Reservations, Travel, Hotels, Flights, Travel, Stack Network, Stack, Transportation,
+    Enterprise, Technology, API Provider, Travel, Bookings, Profiles, Relative Data,
+    General Data, Pedestal, Networks
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightsearch-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightsearch-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflighttripcreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflighttripcreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflighttripcardfee-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflighttripcardfee-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightdetails-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightdetails-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightimage-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightimage-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apimobileimage-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apimobileimage-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightairportdropdown-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightairportdropdown-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightcheckout-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightcheckout-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightfarerulestripid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightfarerulestripid-get-openapi.md
-- name: Expedia Apply Coupon
+- name: Expedia
   x-api-slug: expedia
-  description: Mobile API Packages Apply Coupon
+  description: expedia-mobile-api-documentation--brfont-colorblue-note-in-case-of-authorization-exception-just-a-hrefstaticmobileswaggeruiusersigninusersigninafont
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
-  baseURL: https://apim.expedia.com/x///api/m/trip/coupon
-  tags: Travel,Airports,Airplanes,Coupons,Airlines
+  baseURL: https://apim.expedia.com/x/
+  tags: Reservations, Travel, Hotels, Flights, Travel, Stack Network, Stack, Transportation,
+    Enterprise, Technology, API Provider, Travel, Bookings, Profiles, Relative Data,
+    General Data, Pedestal, Networks
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightsearch-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightsearch-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflighttripcreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflighttripcreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflighttripcardfee-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflighttripcardfee-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightdetails-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightdetails-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightimage-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightimage-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apimobileimage-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apimobileimage-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightairportdropdown-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightairportdropdown-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightcheckout-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightcheckout-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightfarerulestripid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightfarerulestripid-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apimtripcoupon-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apimtripcoupon-post-openapi.md
-- name: Expedia Remove Coupon
+- name: Expedia
   x-api-slug: expedia
-  description: Mobile API Packages Remove Coupon
+  description: expedia-mobile-api-documentation--brfont-colorblue-note-in-case-of-authorization-exception-just-a-hrefstaticmobileswaggeruiusersigninusersigninafont
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
-  baseURL: https://apim.expedia.com/x///api/m/trip/remove/coupon
-  tags: Travel,Airports,Airplanes,Coupons,Airlines
+  baseURL: https://apim.expedia.com/x/
+  tags: Reservations, Travel, Hotels, Flights, Travel, Stack Network, Stack, Transportation,
+    Enterprise, Technology, API Provider, Travel, Bookings, Profiles, Relative Data,
+    General Data, Pedestal, Networks
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightsearch-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightsearch-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflighttripcreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflighttripcreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflighttripcardfee-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflighttripcardfee-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightdetails-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightdetails-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightimage-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightimage-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apimobileimage-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apimobileimage-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightairportdropdown-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightairportdropdown-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightcheckout-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightcheckout-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightfarerulestripid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightfarerulestripid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apimtripcoupon-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apimtripcoupon-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apimtripremovecoupon-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apimtripremovecoupon-post-openapi.md
+- name: Expedia
+  x-api-slug: expedia
+  description: expedia-mobile-api-documentation--brfont-colorblue-note-in-case-of-authorization-exception-just-a-hrefstaticmobileswaggeruiusersigninusersigninafont
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
+  humanURL: http://developer.ean.com/
+  baseURL: https://apim.expedia.com/x/
+  tags: Reservations, Travel, Hotels, Flights, Travel, Stack Network, Stack, Transportation,
+    Enterprise, Technology, API Provider, Travel, Bookings, Profiles, Relative Data,
+    General Data, Pedestal, Networks
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightsearch-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightsearch-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflighttripcreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflighttripcreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflighttripcardfee-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflighttripcardfee-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightdetails-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightdetails-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightimage-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightimage-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apimobileimage-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apimobileimage-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightairportdropdown-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightairportdropdown-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightcheckout-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightcheckout-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightfarerulestripid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightfarerulestripid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apimtripcoupon-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apimtripcoupon-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apimtripremovecoupon-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apimtripremovecoupon-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apiflightairportdropdown-get-openapi.md
 - name: Expedia
   x-api-slug: expedia
   description: Expedia is the leader in travel and technology and is the worlds largest
@@ -162,6 +458,10 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://evrythng.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://expedia.stack.network
 - type: x-base
   url: http://api.ean.com
 - type: x-crunchbase

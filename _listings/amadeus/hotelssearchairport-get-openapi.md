@@ -3,20 +3,11 @@ swagger: "2.0"
 x-collection-name: Amadeus
 x-complete: 0
 info:
-  title: Amadeus Get Airports Autocomplete
-  description: "Using the term parameter and given the start of any word in an airport's
-    official name, a city name, or the start of an IATA code, this API provides the
-    full name and IATA location code of the city or airport, for use in flight searches.
-    Only major cities and civilian airports with several commercial flights per week
-    are included by default. The response provides up to 20 possible matches, sorted
-    by importance, in a JQuery UI Autocomplete compatible format. This sample implementation
-    using JQuery UI may help. This API uses data from the OpenTravelData project.\n
-    \nBy only using the country parameter, this API is also able to find all the IATA
-    location codes associated with a country. Both term and country parameters can
-    be used together to filter the results accordingly.          \n\nThe value returned
-    is the IATA location code. The label returned is always in UTF-8 format, with
-    the airport official name (which is often in the native language), in the format
-    of English City Name (if not already included in the airport name)."
+  title: Amadeus Get Hotels Search Airport
+  description: |-
+    A fast Hotel shopping API to see which hotels are available in a given area, on a given day and displays their lowest prices. With this API you can find out the price of the cheapest daily rate for all hotels near a given airport.
+
+    This API allows you to quickly see the locations of hotels near a given airport, and what prices in that area look like. Note that hotel images are not available to users outside of Amadeus, as we are not licensed to redistribute them. The API is based on our high-speed hotel pricing cache, which is also used to power the Amadeus Hotel Search Engine application. Results are returned very quickly, response times are generally under 2s. Our cache has great global coverage and is constantly refreshed with the latest prices.
   contact:
     name: Amadeus Innovation and Research
     url: https://sandbox.amadeus.com
