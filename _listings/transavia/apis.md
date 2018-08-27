@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28522-airp
 x-kinRank: "7"
 x-alexaRank: "12365"
 tags: Airports
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/transavia/apis.md
 specificationVersion: "0.14"
 apis:
@@ -72,6 +72,18 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/transavia/id-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/transavia/id-get-openapi.md
+- name: Airports API v2 - Get Airports
+  x-api-slug: get
+  description: Retrieve all airports.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28522-airports-api-v2.jpg
+  humanURL: http://transavia.com
+  baseURL: https://api.transavia.com//v2/airports
+  tags: Airlines, Travel, General Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/transavia/get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/transavia/get-openapi.md
 - name: Airports API v2 - Get Airports
   x-api-slug: get
   description: Retrieve all airports.

@@ -1,329 +1,109 @@
 {
-	"name": "Transavia",
-	"x-slug": "transavia",
-	"description": "Want to fly affordably to more than 100 destinations in Europe? Book a flight with Transavia!",
-	"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28522-airports-api-v2.jpg",
-	"x-kinRank": "7",
-	"x-alexaRank": "12365",
-	"tags": "Airports",
-	"created": "2018-08-25",
-	"modified": "2018-08-25",
-	"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/airports\/master\/_listings\/transavia\/apis.md",
+	"name": "Streadata.io API Gallery - Airports",
+	"description": "This is a repository of airports APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/airports.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://airports.streamdata.gallery/apis.json",
 	"specificationVersion": "0.14",
 	"apis": [
 		{
-			"name": "Transavia Airports API",
-			"x-api-slug": "transavia-airports-api",
-			"description": "returns-all-airports",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28522-airports-api-v2.jpg",
-			"humanURL": "http:\/\/transavia.com",
-			"baseURL": "https:\/\/api.transavia.com\/\/v2\/airports",
-			"tags": "Airlines, Travel, General Data, Service API",
-			"properties": [
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/airports\/master\/_listings\/transavia\/get-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/airports\/master\/_listings\/transavia\/get-openapi.md"
-				}
-			]
-		},
-		{
-			"name": "Transavia Airports API",
-			"x-api-slug": "transavia-airports-api",
-			"description": "returns-all-airports",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28522-airports-api-v2.jpg",
-			"humanURL": "http:\/\/transavia.com",
-			"baseURL": "https:\/\/api.transavia.com\/\/v2\/airports",
-			"tags": "Airlines, Travel, General Data, Service API",
-			"properties": [
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/airports\/master\/_listings\/transavia\/get-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/airports\/master\/_listings\/transavia\/get-openapi.md"
-				},
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/airports\/master\/_listings\/transavia\/countrycodecountrycode-get-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/airports\/master\/_listings\/transavia\/countrycodecountrycode-get-openapi.md"
-				}
-			]
-		},
-		{
-			"name": "Transavia Airports API",
-			"x-api-slug": "transavia-airports-api",
-			"description": "returns-all-airports",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28522-airports-api-v2.jpg",
-			"humanURL": "http:\/\/transavia.com",
-			"baseURL": "https:\/\/api.transavia.com\/\/v2\/airports",
-			"tags": "Airlines, Travel, General Data, Service API",
-			"properties": [
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/airports\/master\/_listings\/transavia\/get-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/airports\/master\/_listings\/transavia\/get-openapi.md"
-				},
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/airports\/master\/_listings\/transavia\/countrycodecountrycode-get-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/airports\/master\/_listings\/transavia\/countrycodecountrycode-get-openapi.md"
-				},
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/airports\/master\/_listings\/transavia\/nearest-get-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/airports\/master\/_listings\/transavia\/nearest-get-openapi.md"
-				}
-			]
-		},
-		{
-			"name": "Transavia Airports API",
-			"x-api-slug": "transavia-airports-api",
-			"description": "returns-all-airports",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28522-airports-api-v2.jpg",
-			"humanURL": "http:\/\/transavia.com",
-			"baseURL": "https:\/\/api.transavia.com\/\/v2\/airports",
-			"tags": "Airlines, Travel, General Data, Service API",
-			"properties": [
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/airports\/master\/_listings\/transavia\/get-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/airports\/master\/_listings\/transavia\/get-openapi.md"
-				},
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/airports\/master\/_listings\/transavia\/countrycodecountrycode-get-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/airports\/master\/_listings\/transavia\/countrycodecountrycode-get-openapi.md"
-				},
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/airports\/master\/_listings\/transavia\/nearest-get-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/airports\/master\/_listings\/transavia\/nearest-get-openapi.md"
-				},
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/airports\/master\/_listings\/transavia\/nearestid-get-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/airports\/master\/_listings\/transavia\/nearestid-get-openapi.md"
-				}
-			]
-		},
-		{
-			"name": "Transavia Airports API",
-			"x-api-slug": "transavia-airports-api",
-			"description": "returns-all-airports",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28522-airports-api-v2.jpg",
-			"humanURL": "http:\/\/transavia.com",
-			"baseURL": "https:\/\/api.transavia.com\/\/v2\/airports",
-			"tags": "Airlines, Travel, General Data, Service API",
-			"properties": [
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/airports\/master\/_listings\/transavia\/get-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/airports\/master\/_listings\/transavia\/get-openapi.md"
-				},
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/airports\/master\/_listings\/transavia\/countrycodecountrycode-get-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/airports\/master\/_listings\/transavia\/countrycodecountrycode-get-openapi.md"
-				},
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/airports\/master\/_listings\/transavia\/nearest-get-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/airports\/master\/_listings\/transavia\/nearest-get-openapi.md"
-				},
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/airports\/master\/_listings\/transavia\/nearestid-get-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/airports\/master\/_listings\/transavia\/nearestid-get-openapi.md"
-				},
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/airports\/master\/_listings\/transavia\/id-get-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/airports\/master\/_listings\/transavia\/id-get-openapi.md"
-				}
-			]
-		},
-		{
-			"name": "Transavia Airports API",
-			"x-api-slug": "transavia-airports-api",
-			"description": "returns-all-airports",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28522-airports-api-v2.jpg",
-			"humanURL": "http:\/\/transavia.com",
-			"baseURL": "https:\/\/api.transavia.com\/\/v2\/airports",
-			"tags": "Airlines, Travel, General Data, Service API",
-			"properties": [
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/airports\/master\/_listings\/transavia\/get-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/airports\/master\/_listings\/transavia\/get-openapi.md"
-				},
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/airports\/master\/_listings\/transavia\/countrycodecountrycode-get-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/airports\/master\/_listings\/transavia\/countrycodecountrycode-get-openapi.md"
-				},
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/airports\/master\/_listings\/transavia\/nearest-get-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/airports\/master\/_listings\/transavia\/nearest-get-openapi.md"
-				},
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/airports\/master\/_listings\/transavia\/nearestid-get-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/airports\/master\/_listings\/transavia\/nearestid-get-openapi.md"
-				},
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/airports\/master\/_listings\/transavia\/id-get-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/airports\/master\/_listings\/transavia\/id-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/airports\/master\/_listings\/transavia\/get-openapi.md"
-				}
-			]
-		},
-		{
-			"name": "Transavia Airports API",
-			"x-api-slug": "transavia-airports-api",
-			"description": "Want to fly affordably to more than 100 destinations in Europe? Book a flight with Transavia!",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28522-airports-api-v2.jpg",
-			"humanURL": "http:\/\/transavia.com",
-			"baseURL": "https:\/\/api.transavia.com\/\/v2\/airports",
+			"name": "Expedia",
+			"x-api-slug": "expedia",
+			"description": "Expedia Affiliate Network is the B2B partnership brand of Expedia, Inc. Our technology powers the hotel offering of thousands of partners around the world.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg",
+			"humanURL": "http://developer.ean.com/",
+			"baseURL": "https://apim.expedia.com/x/",
 			"tags": "Airports",
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/airports\/master\/_listings\/transavia\/openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/openapi.md"
 				}
 			]
 		},
 		{
-			"name": "Transavia Flight Offers API",
-			"x-api-slug": "transavia-flight-offers-api",
-			"description": "Want to fly affordably to more than 100 destinations in Europe? Book a flight with Transavia!",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28522-airports-api-v2.jpg",
-			"humanURL": "http:\/\/transavia.com",
-			"baseURL": "https:\/\/tst.api.transavia.com\/\/v1\/flightoffers",
+			"name": "SITA Lab",
+			"x-api-slug": "sita-lab",
+			"description": "",
+			"image": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-butterfly.png",
+			"humanURL": "https://www.developer.aero/",
+			"baseURL": "https:///",
 			"tags": "Airports",
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/airports\/master\/_listings\/transavia\/openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/sita-lab/openapi.md"
 				}
 			]
 		},
 		{
-			"name": "Transavia Routes API",
-			"x-api-slug": "transavia-routes-api",
-			"description": "Want to fly affordably to more than 100 destinations in Europe? Book a flight with Transavia!",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28522-airports-api-v2.jpg",
-			"humanURL": "http:\/\/transavia.com",
-			"baseURL": "https:\/\/tst.api.transavia.com\/\/v3\/routes",
+			"name": "Amadeus",
+			"x-api-slug": "amadeus",
+			"description": "Amadeus travel technology helps businesses connect to the global travel ecosystem, manage operations more effectively and serve travellers better than ever",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28139-sandbox-amadeus-com.jpg",
+			"humanURL": "https://amadeus.com",
+			"baseURL": "https://api.sandbox.amadeus.com//v1.2",
 			"tags": "Airports",
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/airports\/master\/_listings\/transavia\/openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/amadeus/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Lufthansa",
+			"x-api-slug": "lufthansa",
+			"description": "Book your flights to Germany, Italy, UK or France online at attractive low fares. Fly via Frankfurt, Munich or Zurich - Lufthansa United States of America",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28453-lh-partner.jpg",
+			"humanURL": "http://lufthansa.com",
+			"baseURL": "https://api.lufthansa.com//v1",
+			"tags": "Airports",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/lufthansa/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Transavia",
+			"x-api-slug": "transavia",
+			"description": "Want to fly affordably to more than 100 destinations in Europe? Book a flight with Transavia!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28522-airports-api-v2.jpg",
+			"humanURL": "http://transavia.com",
+			"baseURL": "https://tst.api.transavia.com//v3/routes",
+			"tags": "Airports",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/transavia/openapi.md"
 				}
 			]
 		}
 	],
-	"x-common": [
-		{
-			"type": "x-api-gallery",
-			"url": "http:\/\/tradestation.api.gallery.streamdata.io"
-		},
-		{
-			"type": "x-api-stack",
-			"url": "http:\/\/transavia.stack.network"
-		},
-		{
-			"type": "x-crunchbase",
-			"url": "https:\/\/crunchbase.com\/organization\/transavia-airlines"
-		},
-		{
-			"type": "x-developer",
-			"url": "https:\/\/developer.transavia.com\/"
-		},
-		{
-			"type": "x-documentation",
-			"url": "https:\/\/tst.developer.transavia.com\/docs\/services\/"
-		},
-		{
-			"type": "x-twitter",
-			"url": "https:\/\/twitter.com\/transavia"
-		},
-		{
-			"type": "x-website",
-			"url": "http:\/\/transavia.com"
-		}
-	],
+	"tags": "Airports",
 	"include": [
-	],
-	"maintainers": [
 		{
-			"FN": "Kin Lane",
-			"x-twitter": "apievangelist",
-			"email": "info@apievangelist.com"
+			"name": "Expedia",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/expedia/apis.yaml"
+		},
+		{
+			"name": "SITA Lab",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/sita-lab/apis.yaml"
+		},
+		{
+			"name": "Amadeus",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/amadeus/apis.yaml"
+		},
+		{
+			"name": "Lufthansa",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/lufthansa/apis.yaml"
+		},
+		{
+			"name": "Transavia",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/airports/master/_listings/transavia/apis.yaml"
 		}
 	]
 }
